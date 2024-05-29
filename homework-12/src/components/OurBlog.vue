@@ -6,7 +6,7 @@
 		<p class="text-[#727272] text-center mb-[55px]">
 			We are an online plant shop offering a wide range of cheap and trendy
 			plants.
-		</p>
+		</p> 
 
 		<div class="flex justify-between border-red-500 gap-x-[44px]">
 			<div>

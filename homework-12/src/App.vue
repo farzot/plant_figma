@@ -9,6 +9,8 @@ import OurBlog from './components/OurBlog.vue'
 import ProductCard from './components/ProductCard.vue'
 import Products from './components/Products.vue'
 import SummerCastes from './components/SummerCastes.vue'
+import FooterPart from './components/FooterPart.vue'
+import AuthModel from './components/AuthModel.vue'
 
 export default {
 	components: {
@@ -22,6 +24,8 @@ export default {
 		Intro,
 		SummerCastes,
 		OurBlog,
+		FooterPart,
+		AuthModel
 	},
 	data() {
 		return {}
@@ -30,7 +34,7 @@ export default {
 </script>
 
 <template>
-	<div>
+	<div class="mx-4 my-3 bg-gray-100">
 		<div class="container">
 			<Header />
 			<Intro class="mb-[26px]" />
@@ -40,6 +44,8 @@ export default {
 			</div>
 			<SummerCastes class="mb-[138px]" />
 			<OurBlog />
+			<FooterPart />
+			<AuthModel />
 		</div>
 	</div>
 </template>
